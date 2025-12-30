@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Престъпление и наказание - Книжарница "Страница"</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Книжарница "Страница"</h1>
+      <p class="tagline">Вашият свят от книги</p>
+    </header>
+
+    <a href="index.html" class="back-link">← Обратно към каталога</a>
+
+    <main>
+      <section class="product-detail">
+        <div class="product-image">
+          <img src="images/book4.jpg" alt="Престъпление и наказание" />
+        </div>
+        <div class="product-content">
+          <h1>Престъпление и наказание</h1>
+          <p class="short-description">
+            Психологическият шедьовър на Достоевски за вината и изкуплението.
+          </p>
+          <p class="full-description">
+            "Престъпление и наказание" е роман на руския писател Фьодор
+            Достоевски, публикуван през 1866 г. Главният герой Родион
+            Расколников е беден студент в Санкт Петербург, който убива лихварка,
+            убеден, че това е морално оправдано. Романът проследява
+            психологическите мъки на Расколников след престъплението и неговия
+            път към изкуплението. Достоевски майсторски изследва темите за
+            вината, съвестта, бедността и възможността за духовно прераждане.
+            Това е едно от най-влиятелните произведения в световната литература,
+            което е поставило основите на психологическия роман.
+          </p>
+          <p class="price">14.99 лв.</p>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <h2>Поръчай книгата</h2>
+        <form id="purchase-form">
+          <div class="form-group">
+            <label for="name">Име:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" name="address" required />
+          </div>
+          <button type="submit" class="btn btn-success">Поръчай</button>
+        </form>
+      </section>
+
+      <section class="reviews-section">
+        <h2>Потребителски ревюта</h2>
+        <div id="reviews-container">
+          <div class="review">
+            <p class="review-text">
+              "Невероятно дълбока книга. Достоевски разбира човешката душа като
+              никой друг."
+            </p>
+            <p class="review-author">- Борис Н.</p>
+          </div>
+          <div class="review">
+            <p class="review-text">
+              "Тежко, но важно четиво. След като я прочетох, дълго мислих върху
+              нея."
+            </p>
+            <p class="review-author">- Радостина Т.</p>
+          </div>
+          <div class="review">
+            <p class="review-text">
+              "Класика, която всеки трябва да прочете поне веднъж.
+              Психологически майсторски написана."
+            </p>
+            <p class="review-author">- Стефан Г.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <h2>Напиши ревю</h2>
+        <form id="review-form">
+          <div class="form-group">
+            <label for="review-name">Име:</label>
+            <input type="text" id="review-name" name="review-name" required />
+          </div>
+          <div class="form-group">
+            <label for="comment">Коментар:</label>
+            <textarea id="comment" name="comment" required></textarea>
+          </div>
+          <button type="submit" class="btn">Изпрати</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Книжарница "Страница". Всички права запазени.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

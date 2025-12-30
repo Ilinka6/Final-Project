@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Малкият принц - Книжарница "Страница"</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Книжарница "Страница"</h1>
+      <p class="tagline">Вашият свят от книги</p>
+    </header>
+
+    <a href="index.html" class="back-link">← Обратно към каталога</a>
+
+    <main>
+      <section class="product-detail">
+        <div class="product-image">
+          <img src="images/book1.jpg" alt="Малкият принц" />
+        </div>
+        <div class="product-content">
+          <h1>Малкият принц</h1>
+          <p class="short-description">
+            Вечната приказка за любовта, приятелството и смисъла на живота.
+          </p>
+          <p class="full-description">
+            "Малкият принц" е най-известното произведение на Антоан дьо
+            Сент-Екзюпери, публикувано през 1943 г. Това е поетична приказка,
+            която разказва историята на малко момче от астероид B-612, което
+            пътува из Вселената в търсене на приятели и смисъл. Книгата е
+            изпълнена с дълбоки философски послания за любовта, загубата,
+            приятелството и човешката природа. С нейните безсмъртни цитати като
+            "Вижда се добре само със сърцето. Същественото е невидимо за очите",
+            тя продължава да трогва читатели от всички възрасти по целия свят.
+            Превод на български от Константин Константинов.
+          </p>
+          <p class="price">12.99 лв.</p>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <h2>Поръчай книгата</h2>
+        <form id="purchase-form">
+          <div class="form-group">
+            <label for="name">Име:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="address">Адрес:</label>
+            <input type="text" id="address" name="address" required />
+          </div>
+          <button type="submit" class="btn btn-success">Поръчай</button>
+        </form>
+      </section>
+
+      <section class="reviews-section">
+        <h2>Потребителски ревюта</h2>
+        <div id="reviews-container">
+          <div class="review">
+            <p class="review-text">
+              "Прекрасна книга! Четох я като дете и сега я препрочитам на децата
+              си. Всеки път откривам нещо ново."
+            </p>
+            <p class="review-author">- Мария К.</p>
+          </div>
+          <div class="review">
+            <p class="review-text">
+              "Книга, която трябва да се прочете поне веднъж в живота. Толкова
+              много мъдрост в толкова малко страници."
+            </p>
+            <p class="review-author">- Георги П.</p>
+          </div>
+          <div class="review">
+            <p class="review-text">
+              "Малкият принц ме научи да виждам света с други очи. Препоръчвам
+              на всички!"
+            </p>
+            <p class="review-author">- Елена С.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <h2>Напиши ревю</h2>
+        <form id="review-form">
+          <div class="form-group">
+            <label for="review-name">Име:</label>
+            <input type="text" id="review-name" name="review-name" required />
+          </div>
+          <div class="form-group">
+            <label for="comment">Коментар:</label>
+            <textarea id="comment" name="comment" required></textarea>
+          </div>
+          <button type="submit" class="btn">Изпрати</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Книжарница "Страница". Всички права запазени.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
