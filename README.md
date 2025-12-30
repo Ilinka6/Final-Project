@@ -1,5 +1,3 @@
-# Книжарница "Страница"
-
 Учебен проект за курса "Динамични интернет страници" - Технически университет София
 
 ## Описание
@@ -23,6 +21,14 @@ Final-Project/
 └── images/
     └── book1-5.jpg         # Изображения на книгите
 ```
+
+## Снимки
+<img width="2984" height="1706" alt="image" src="https://github.com/user-attachments/assets/f910a05b-534a-4bac-b537-ca2875d4cc7d" />
+<img width="2970" height="1576" alt="image" src="https://github.com/user-attachments/assets/cb493cef-26ff-4b17-968a-9abc016be54d" />
+<img width="2984" height="1700" alt="image" src="https://github.com/user-attachments/assets/420ca691-39c6-4d3b-a1b1-4fd35ad000d8" />
+<img width="2998" height="1430" alt="image" src="https://github.com/user-attachments/assets/a9f8dd4b-34b1-481d-90a3-509f19fdb598" />
+<img width="2970" height="1712" alt="image" src="https://github.com/user-attachments/assets/71d1eb8a-0c53-4229-9d30-5c70a7f0eb8f" />
+<img width="2976" height="1676" alt="image" src="https://github.com/user-attachments/assets/6bf76f4f-adb9-4a7c-b68e-f282fd09e0ef" />
 
 ## Функционалности
 
